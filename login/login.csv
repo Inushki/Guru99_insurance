@@ -1,0 +1,5 @@
+Test Case,Description,Object,Action ,DataColumn,WaitAfter
+login,Enter the Email in the Email field,email,input,userName,
+login,Enter the Password in the Password field,password,input,password,
+login,Click on Login button,/html/body/div[3]/form/div[3]/input,click,,
+login,Verify text,"//*[@id=""login-form""]/div[2]/span/b",verifyText,errMsg,

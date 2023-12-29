@@ -1,0 +1,17 @@
+Test Case ID,Enabled,Description,email,password,errMsg
+login,0,Empty email and empty password,,,Enter your Email address and password correct
+login,1,Empty email and correct password,,user123,Enter your Email address and password correct
+login,0,Existing email and empty password,user123@gmail.com,,Enter your Email address and password correct
+login,0,Non existing email and empty password ,creativelogodesigner@gmail.com,,Enter your Email address and password correct
+login,1,Non existing email and password,creativelogodesigner@gmail.com,euyuyeuy,Enter your Email address and password correct
+login,1,Existing email but the corresponding password in capital,user123@gmail.com,USER123,Enter your Email address and password correct
+login,1,Existing email and corresponding password both in capital,ADMIN,user123,Enter your Email address and password correct
+login,1,Email with white spaces,user 123@gmail.com,user123,Enter your Email address and password correct
+login,1,Password with white spaces,user123@gmail.com,user @123,Enter your Email address and password correct
+login,1,Existing email and correct password with leading white space,user123@gmail.com, user@123,Enter your Email address and password correct
+login,1,Existing email and correct password with trailing white space,user123@gmail.com,user@123 ,Enter your Email address and password correct
+login,1,Existing email with leading white space and correct password, user123@gmail.com,user@123 ,Enter your Email address and password correct
+login,1,Existing email with trailing white space and correct password,user123@gmail.com ,user@123 ,Enter your Email address and password correct
+login,1,Registered email in invalid format and correct password, user123gmail.com,user@124,Enter your Email address and password correct
+login,1,Existing email and incorrect password,user123@gmail.com,euyuyeuy,Enter your Email address and password correct
+login,1,Enter an existing email and correct password,user123@gmail.com,user123,Enter your Email address and password correct

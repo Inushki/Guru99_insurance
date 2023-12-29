@@ -1,0 +1,4 @@
+Test Case ID,Enabled,Description,firstname,surename,phone,street,city,country,postcode,email,password,confirmpassword
+signup,0,Empty fields,,,,,,,,,,
+signup,1,No confirm password,,Fretch,5214789542,Colmen st,Ontario,Canada,45213,elina20@gmail.com,1234,
+signup,1,Signup,Elina,Fretch,5214789542,Colmen st,Ontario,Canada,45213,elina20@gmail.com,1234,1234
